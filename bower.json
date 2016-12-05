@@ -1,0 +1,21 @@
+{
+  "name": "angapp",
+  "description": "angular login application",
+  "main": "index.js",
+  "authors": [
+    "Kajabukama Yusuph H."
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ngSweetAlert": "angular-sweetalert#^1.1.2",
+    "animate.css": "^3.5.2"
+  }
+}

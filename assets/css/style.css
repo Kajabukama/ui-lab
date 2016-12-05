@@ -1,0 +1,81 @@
+html {
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  /*padding-top: 60px;*/
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+  overflow-x: hidden;
+}
+.signin {
+  padding: 65px 100px;
+  margin: 0 auto;
+}
+.signin .signin-title{
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+.s12 > .btn-flat{
+  width: 100%;
+}
+.card .card-title{
+  margin-bottom: 3em;
+  padding-top: 40px;
+}
+.p-t-60{
+  padding-top: 60px;
+}
+.input-field {
+  margin-top: 0rem;
+}
+.info-text{
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+/*@media only screen and (max-width: 600px) {
+    .signin {
+        padding: 25px 30px;
+        margin: 0 auto;
+    }
+}*/
+
+ .input-field input:focus + label {
+   color: #2196f3 !important;
+ }
+ /* label underline focus color */
+ .row .input-field input:focus {
+   border-bottom: 1px solid #2196f3 !important;
+   box-shadow: 0 1px 0 0 #2196f3 !important
+ }
+ .checkbox-blue[type="checkbox"] + label:before{
+  border: 2px solid #2196f3;
+  background: transparent;
+}
+.checkbox-blue[type="checkbox"]:checked + label:before{
+  border: 2px solid transparent;
+  border-bottom: 2px solid #2196f3;
+  border-right: 2px solid #2196f3;
+  background: transparent;
+}
+.checkbox-blue.filled-in[type="checkbox"] + label:after{
+  border: 2px solid #2196f3;
+  background: transparent;
+}
+.checkbox-blue.filled-in[type="checkbox"]:checked + label:after{
+  background: #2196f3;
+}
+.checkbox-blue.filled-in[type="checkbox"]:checked + label:before{
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+

@@ -1,0 +1,57 @@
+<div class="signin">
+	<div class="signin-content">
+		<div class="signin-title blue-text">Signin Up</div>
+		<form name="signup" class="form" ng-submit="register(signup.$valid);">
+
+			<div class="row">
+				<div class="input-field col s12">
+					<label for="inputName">Full name</label>
+					<input type="text" id="inputName" 
+					class="validate"
+					placeholder="Eg. Yusuph H. Kajabukama" 
+					ng-model="name"
+					required autofocus autofocus="off" 
+					name="fullname">
+				</div>
+			</div>
+			<div class="row">
+				<div class="input-field col s12">
+					<label for="inputMobile">Mobile Number</label>
+					<input type="number" id="inputMobile" 
+					class="validate" 
+					placeholder="Eg 0714744735" required 
+					ng-model="mobile">
+				</div>
+			</div>
+			<div class="row">
+				<div class="input-field col s12">
+					<label for="inputEmail">Email address</label>
+					<input type="email" id="inputEmail" 
+					class="validate" required  autofocus="off" 
+					placeholder="Email address" 
+					ng-model="email">
+				</div>
+			</div>
+			<div class="row">
+				<div class="input-field col s12">
+					<label for="inputPassword">Password</label>
+					<input type="password" id="inputPassword" 
+					class="validate" required autocomplete="off" 
+					placeholder="Password" 
+					ng-model="password">
+				</div>
+			</div>
+			<div class="row">
+				<div class="input-field s12">
+					<button class="waves-effect waves-light btn-flat btn-large blue lighten-1 white-text" type="submit" ng-disabled="signup.$invalid">create account</button>
+				</div>
+			</div>
+			
+		</form>
+
+		<div class="action">
+			<p class="grey-text">Already have an account <a href="#/login" title="">Sign Up here</a> </p>
+			<!-- <pre>{{ signup | json}}</pre> -->
+		</div>
+	</div>
+</div>

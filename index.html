@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app="angapp">
+<head>
+	<title>Authentication</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+	<link rel="stylesheet" href="bower_components/sweetalert/dist/sweetalert.css">
+	<link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/ng-animate.css">
+</head>
+<body class="white darken-2">
+	
+	
+	<div class="container-fluid">			
+			<div class="row">
+
+				<div class="col m6 l6 hide-on-med-and-down blue darken-2">
+					<div class="info-text center-block center-align">
+						<img src="assets/imgs/concepts.png" class="responsive-img" />
+					</div>
+					<div class="carousel carousel-slider center" data-indicators="true">
+					    
+					    <div class="carousel-item white-text" href="#one!">
+					      <h2>Connect Developers !</h2>
+					      <p class="white-text">boo.tcamp brings young African Developers together to solve real problem</p>
+					    </div>
+					    <div class="carousel-item white-text" href="#two!">
+					      <h2>Breeds Developers</h2>
+					      <p class="white-text">Boo.tcamp breeds World-class Developers from all corners of the African Continent</p>
+					    </div>
+					  </div>
+				</div>
+
+				<!-- forms sections -->
+				<div class="col m6 s12 l6 p-t-60">
+					<div ng-view></div>
+				</div>
+			</div>
+	</div>
+
+	<!-- app libs -->
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+	<script src="node_modules/angular/angular.js"></script>
+	<script src="node_modules/angular-animate/angular-animate.min.js"></script>
+	<script src="node_modules/angular/angular-route.min.js"></script>
+	<script src="bower_components/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="bower_components/ngSweetAlert/SweetAlert.js"></script>
+	<!-- custom app files -->
+	<script src="assets/js/app.min.js"></script>
+	<script src="assets/js/controllers/login.controller.js"></script>
+	<script src="assets/js/controllers/signup.controller.js"></script>
+	<script src="assets/js/controllers/dashboard.controller.js"></script>
+	<script src="assets/js/controllers/activate.controller.js"></script>
+	<script src="assets/js/custom.js"></script>
+</body>
+</html>

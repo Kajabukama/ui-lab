@@ -1,0 +1,11 @@
+{
+  "name": "angapp",
+  "version": "1.0.0",
+  "description": "angular login application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kajabukama Yusuph H.",
+  "license": "MIT"
+}
